@@ -9,8 +9,28 @@ title: Nathan Li
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am [your pitch paragraph about your passions, knowledge and interestst.] 
+My name is {{ site.name }}, and I am a current 3rd year Mechanical Engineering student at Cornell University. 
 
-"It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."
+"Out of the night that covers me,
+      Black as the pit from pole to pole,
+I thank whatever gods may be
+      For my unconquerable soul.
+
+In the fell clutch of circumstance
+      I have not winced nor cried aloud.
+Under the bludgeonings of chance
+      My head is bloody, but unbowed.
+
+Beyond this place of wrath and tears
+      Looms but the Horror of the shade,
+And yet the menace of the years
+      Finds and shall find me unafraid.
+
+It matters not how strait the gate,
+      How charged with punishments the scroll,
+I am the master of my fate,
+      I am the captain of my soul."
+      
+    -William Ernest Henley
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.

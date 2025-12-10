@@ -1,25 +1,18 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+title: Mechanics of Materials - Torque Wrench Analysis
+description: Class project with CAD, ANSYS FEM Analysis
+technologies: [Python, Autodesk Fusion, ANSYS Workbench]
+image: /assets/images/Title 3270.png
 ---
 
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+The final project for my MAE 3270 Mechanics of Engineering Materials class was to design a 3/8" drive torque wrench rated for 50 ft-lb of torque (600 in-lb), required to attain at least 1.0mV/V strain gauge voltage near the drive, fully reversible torque for 10^6 cycles, safety factor of 4 for yield failure, safety factor of 2 for crack growth from an assumed crack depth of 0.04 in, and fatigue stress safety factor of 1.5.
 
 
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+## **CAD Model Dimensions**
 
+I created an interated design based on a provided base model in Fusion. The model includes a 3/8" drive and location for a strain gauge, in addition to basic components such as the handle and a grip extension to apply the torque from.
 
-This is how I solved the problem:
-
-```python
-    some code = 10;
-    plot();
-```
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
+![Torque Wrench Dimensions]({{"/assets/images/3270 CAD Dimensions.png" | relative_url}}){:style="width:500px;"}
 
