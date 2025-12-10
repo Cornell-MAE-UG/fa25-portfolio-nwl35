@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Mechanics of Materials - Torque Wrench Analysis
+title: Torque Wrench Analysis - Mechanics of Materials
 description: Class project with CAD, ANSYS FEM Analysis
 technologies: [Python, Autodesk Fusion, ANSYS Workbench]
 image: /assets/images/Title 3270.png
