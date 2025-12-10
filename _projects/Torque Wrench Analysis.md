@@ -42,9 +42,54 @@ For the 50ft-lb torque loading, the wrench possesses the following saftety facto
 - Fatigue: 16.90 (minimum 1.5)
 
 
-## **FEM Loads and Boundary Conditions**
+## **Loads and Boundary Conditions, FEM Analysis**
 
 In the ANSYS software, a 0 displacement condition was applied to the outer faces of the 3/8" drive, and the force was applied at the end of the wrench before the extended grip handle. Force was calculated from the torque/moment, F=M/L.
 
-![Torque Wrench Dimensions]({{"/assets/images/3270 FEM Loading.png" | relative_url}}){:style="width:500px;"}
+![FEM Loads and Boundary Conditions]({{"/assets/images/3270 FEM Loading.png" | relative_url}}){:style="width:500px;"}
 
+
+## **Normal Strain Contours, FEM Analysis**
+
+Pictured are the contours from the normal strain solution.
+
+![Normal Strain]({{"/assets/images/3270 Normal Strain ANSYS.png" | relative_url}}){:style="width:500px;"}
+
+
+## **Maximum Principal Stress, FEM Analysis**
+
+Pictured are the contours from the maximum principal stress solution.
+
+![Max Principal Stress]({{"/assets/images/3270 Max Principal Stress ANSYS.png" | relative_url}}){:style="width:500px;"}
+
+
+## **FEM Results Summary**
+
+From the FEM Analysis:
+- Maximum Normal Stress: 55.7 ksi
+- Load Point Deflection: 0.03 in
+- Strain at gauge location: 40 microstrain
+
+From hand calculations:
+- Maximum Normal Stress: 48 ksi
+- Load Point Deflection: 0.02 in
+- Strain at gauge location: 149.64 microstrain
+
+Normal stress differs by 16%
+Load point deflection differs by 33%
+Strain differs by 73% (a lot!)
+
+
+## **Torque Wrench Sensitivity**
+
+From hand calculations, strain gauge output should be 157.13 mV/V.
+
+Using the FEM strain value of 40 microstrain and the output equation output=(1000)(2.1)(strain)(0.5), where 2.1 is the strain gauge factor and 0.5 indicates the half-bridge configuration:
+
+FEM strain output: 42 mV/V, which still exceeds minimum output of 1 mV/V.
+
+## **Strain Gauge Selection**
+
+Using the DwyerOmega SGD-2/350-LY43 would fit the dimensions required of this project. This gauge is a miniature linear pattern, solder pad gauge with carrier length 7.6 mm, carrier width 5.8mm, grid length 2mm, and grid width 2.5mm. Purchase link can be found at https://www.dwyeromega.com/en-us/linear-strain-gages/SGD-LINEAR1-AXIS/p/SGD-2-350-LY43.
+
+![Strain Gauge]({{"/assets/images/3270 Strain gauge.png" | relative_url}}){:style="width:500px;"}
