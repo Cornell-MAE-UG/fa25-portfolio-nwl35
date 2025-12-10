@@ -92,4 +92,4 @@ FEM strain output: 42 mV/V, which still exceeds minimum output of 1 mV/V.
 
 Using the DwyerOmega SGD-2/350-LY43 would fit the dimensions required of this project. This gauge is a miniature linear pattern, solder pad gauge with carrier length 7.6 mm, carrier width 5.8mm, grid length 2mm, and grid width 2.5mm. Purchase link can be found at https://www.dwyeromega.com/en-us/linear-strain-gages/SGD-LINEAR1-AXIS/p/SGD-2-350-LY43.
 
-![Strain Gauge]({{"/assets/images/3270 Strain gauge.png" | relative_url}}){:style="width:500px;"}
+![Strain Gauge]({{"/assets/images/3270 Strain gauge.png" | relative_url}}){:style="width:250px;"}
