@@ -17,12 +17,12 @@ I created an interated design based on a provided base model in Fusion. The mode
 ![Torque Wrench Dimensions]({{"/assets/images/3270 CAD Dimensions.png" | relative_url}}){:style="width:500px;"}
 
 Key dimensions:
-    - Overall length: 16.36 in
-    - Length from force application point to center of drive L: 13.5 in
-    - Width h: 1 in
-    - Height b: 0.75 in
-    - Length from center of drive to strain gauge c: 1 in
-    - Grip handle length: 2.36 in (60mm)
+- Overall length: 16.36 in
+- Length from force application point to center of drive L: 13.5 in
+- Width h: 1 in
+- Height b: 0.75 in
+- Length from center of drive to strain gauge c: 1 in
+- Grip handle length: 2.36 in (60mm)
 
 
 ## **Material Selection**
@@ -30,16 +30,16 @@ Key dimensions:
 I chose P4 Tool Steel for the wrench, since it was also in the Tool Steel category and compared with the M42 Tool Steel used in the base model. Also, it was cheaper per lb while still retaining similar strength and material properties to the M42 steel.
 
 Material properties:
-Young's Modulus (E): 29.7e6 psi
-Tensile Strength: 305 ksi
-Fracture Toughness (K_IC): 16.7e3 psi*(in)^0.5
-Fracture Strength: 81.1 ksi for 10^7 cycles
-Poisson's Ratio: 0.285
+- Young's Modulus (E): 29.7e6 psi
+- Tensile Strength: 305 ksi
+- Fracture Toughness (K_IC): 16.7e3 psi*(in)^0.5
+- Fracture Strength: 81.1 ksi for 10^7 cycles
+- Poisson's Ratio: 0.285
 
 For the 50ft-lb torque loading, the wrench possesses the following saftety factors:
-Yield/strength: 63.54 (minimum 4)
-Crack growth: 8.76 (minimum 2)
-Fatigue: 16.90 (minimum 1.5)
+- Yield/strength: 63.54 (minimum 4)
+- Crack growth: 8.76 (minimum 2)
+- Fatigue: 16.90 (minimum 1.5)
 
 
 ## **FEM Loads and Boundary Conditions**
