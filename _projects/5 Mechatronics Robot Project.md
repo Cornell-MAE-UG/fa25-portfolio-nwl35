@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Heat Transfer Homework Example
+title: Mechatronics Robot Project
 description: Generic Heat Transfer homework
 technologies: [Heat Transfer]
 image: /assets/images/3240 portfolio.png
