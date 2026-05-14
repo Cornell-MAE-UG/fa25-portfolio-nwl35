@@ -1,13 +1,12 @@
 ---
 layout: project
 title: Mechatronics Robot Project
-description: Generic Heat Transfer homework
-technologies: [Heat Transfer]
-image: /assets/images/3240 portfolio.png
+description: Culminating project for MAE 3780 Mechatronics.
+technologies: [Arduino, C++, Circuits]
+image: /assets/images/3780 lo.png
 ---
 
 ## **Summary**
-MAE 3240 Heat Transfer problem set 3 covered heat transfer through an infinite rod, conduction and convention through different mediums, and heat transfer through a turbine blade under different conditions. Highlighting the third problem about the turbine blade, it gives much practical insight to the calculations that go into the materials science and analytical design of real engineering applications. The turbine blade includes a thermal barrier coating (TBC) and cooling air, and calculating the blade temperature with and without the TBC gives important insight into how the material for the TBC is chosen based off a maximum operating temperature, Tmax.
 
-
-[My work is attached here: *MAE 3240 Problem Set 3*]({{ "/assets/MAE 3240 Problem Set 3.pdf" | relative_url }})
+The semester project for MAE 3780 Mechatronics involved designing a robot to collect cubes in a competition called the "Cube Craze," where my group faced other group's robots to collect the most cubes. The robot was based off an initial chassis and is powered by an Arduino Uno R3 board, coupled with battery packs and motors. My group created C++ code to drive the motors and pilot the robot, which navigated using a color sensor to detect changes in the competition board color and maneuever as such to collect the cubes spaced along the center of the board, with our idol from the movie The Dictator.
+![Picture of the robot]({{"/assets/images/3780 hi.png" | relative_url}}){:style="width:500px;"}
